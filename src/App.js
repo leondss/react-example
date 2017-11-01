@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Table from './Table';
-import {Buttons, Icons, Grids,Layouts} from './AntdDemo';
+import {Buttons, Icons, Grids, Layouts, Breadcrumbs, Dropdowns, Menus, StepsEx} from './AntdDemo';
 
 const cols = [
     {name: '名称'},
@@ -11,7 +11,9 @@ const cols = [
 
 const App = () => (
     <div>
-        <Layouts/>
+        <Menus/>
+        <Dropdowns/>
+        <StepsEx/>
     </div>
 );
 
